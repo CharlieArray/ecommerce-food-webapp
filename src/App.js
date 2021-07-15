@@ -1,4 +1,12 @@
-import './App.css';
+
+
+{/* To Do List
+  -Add React Router DOM/React Router
+  -Add page components to App.js root component
+  -import styled components dependencies
+
+
+*/}
 
 //header
   //div
