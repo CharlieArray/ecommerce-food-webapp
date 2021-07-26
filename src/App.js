@@ -1,12 +1,37 @@
+import styled from "styled-components";
+
+const Appheader = styled.div`
+  display: block;
+  margin: 2px;
+  text-align: center;
+  border: 2px solid black;
+`
+const Header1 = styled.h1`
+  font-size: 38px;
+`
+
+function App() {
+  return (
+    <div className="App">
+      <Appheader>
+        <Header1>
+          Welcome to Sarah-licious-eats 
+        </Header1>
+      </Appheader>
+
+      {/*Main Instagram Feed*/}
+      {/*MainAbout (bio on Sarah)*/}
+      {/*MainPortfolio (portfolio work)*/}
+      </div>
+  );
+}
 
 
-{/* To Do List
-  -Add React Router DOM/React Router
-  -Add page components to App.js root component
-  -import styled components dependencies
+// To Do List
+  //-Add React Router DOM/React Router
+  //-Add page components to App.js root component
+  //-import styled components dependencies
 
-
-*/}
 
 //header
   //div
@@ -34,18 +59,5 @@
     //possible contact form
   //div
 
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src="" className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
-}
 
 export default App;
