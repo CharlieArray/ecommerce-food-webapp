@@ -1,4 +1,10 @@
 import React from 'react'
+import styled from "styled-components";
+
+const Header1 = styled.h1`
+  font-size: 38px;
+  text-align: center;
+`;
 
 export default class Main extends React.Component{
 
@@ -6,7 +12,7 @@ export default class Main extends React.Component{
 
         return(
             <div>
-                <h1>Welcome to Main Page</h1>
+                <Header1>Main Page</Header1>
                 {/*Instagram API*/}
             </div>
         )
