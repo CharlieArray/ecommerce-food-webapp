@@ -11,15 +11,17 @@ const Appheader = styled.div`
   border: 2px solid black;
 `;
 const Header1 = styled.h1`
-  font-size: 38px;
+  font-size: 60px;
   text-align: center;
+  font-family: Sacramento, Arial, Helvetica, sans-serif;
+  font-weight: bold;
 `;
 
 function App() {
   return (
     <div className="App">
       <Appheader>
-        <Header1>Welcome to Sarah-licious-eats🌱</Header1>
+        <Header1>Sarah_licious_eats🧁</Header1>
       </Appheader>
 
       <Router>
@@ -58,9 +60,9 @@ function App() {
 }
 
 // To Do List
-//-Add React Router DOM/React Router
-//-Add page components to App.js root component
-//-import styled components dependencies
+//-Add React Router DOM/React Router (Complete)
+//-Add page components to App.js root component (Complete)
+//-import styled components dependencies (Complete)
 
 //header
 //div
